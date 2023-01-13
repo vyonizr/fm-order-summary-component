@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Order summary card</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="text-sans m-0 flex h-screen flex-col items-center justify-center bg-customPaleBlue font-medium"
+  >
+    <main
+      class="flex h-[35.625rem] w-[20.5rem] flex-col overflow-hidden rounded-2xl bg-white lg:h-[43.75rem] lg:w-[28.125rem]"
+    >
+      <figure>
+        <img src="./images/illustration-hero.svg" />
+      </figure>
+      <div
+        class="flex h-full flex-col items-center justify-between px-[1.625rem] py-[2.125rem] lg:px-[3.125rem] lg:py-[3.375rem]"
+      >
+        <section class="flex flex-col">
+          <h1
+            class="text-center text-xl font-black text-customDarkBlue lg:text-3xl"
+          >
+            Order Summary
+          </h1>
+          <p class="mt-4 text-center font-medium text-customDesaturatedBlue">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </section>
+
+        <div
+          class="grid w-full grid-cols-[auto_1fr_auto] items-center gap-6 rounded-xl bg-customVeryPaleBlue p-4 lg:p-7"
+        >
+          <img src="./images/icon-music.svg" />
+          <div>
+            <p class="font-bold lg:font-black">Annual Plan</p>
+            <p class="text-customDesaturatedBlue">$59.99/year</p>
+          </div>
+          <a
+            href="#"
+            class="w-fit justify-self-end font-bold text-customBrightBlue underline hover:text-cornflowerBlue"
+          >
+            <small>Change</small>
+          </a>
+        </div>
+
+        <button
+          class="w-full rounded-xl bg-customBrightBlue py-4 font-bold text-white drop-shadow-xl hover:bg-cornflowerBlue"
+        >
+          Proceed to Payment
+        </button>
+        <button
+          class="w-fit bg-transparent font-bold text-customDesaturatedBlue hover:text-customDarkBlue"
+        >
+          Cancel Order
+        </button>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/vyonizr">vyonizr</a>.
+    </footer>
+  </body>
+</html>
